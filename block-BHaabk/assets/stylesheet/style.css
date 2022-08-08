@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS Starts here */
+
+.header-background {
+    background-color: #2A283F;
+    height: 10vh;
+}
+
+.header-dimension, .title-section {
+    width: 80vw;
+    margin: 10px 10vw;
+}
+
+.header-container {
+    padding: 3vh 0px;
+    display: flex;
+    align-items: center;
+}
+
+.brand-name {
+    font-size: 30px;
+}
+
+.brand-name, .nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links ul {
+    text-align: right;
+}
+
+.header-container > div {
+    width: 45%;
+    /* border: 2px solid red; */
+}
+
+.nav-links li {
+    display: inline;
+    padding: 10px;
+}
+
+.title-section-container {
+    background-color: #b6ffea;
+}
+
+.title-section {
+    margin: 0px auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 60vw;
+}
+
+.title-section h1 {
+    font-size: 48px;
+    padding: 40px;
+}
+
+.title-section h3 {
+    font-size: 20px;
+    padding: 40px;
+}
+
+.section-background {
+    background-color: white;
+}
+
+.section-dimension {
+    width: 70vw;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+
+.article-container {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.article-container > article {
+    margin: 10px 5vw;
+    max-width: 24vw;
+}
+
+.article-container article h4 {
+    font-size: 40px;
+    padding: 40px 0px;
+}
+
+.article-container article p {
+    font-size: 20px;
+}
+
+.section-backrgound-gallery {
+    background-color: #4f9da6;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between ;
+    
+}
+
+.gallery-card {
+    width: 18vw;
+    /* border: 1px solid green; */
+    padding: 10px;
+}
+
+.gallery-card h5 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+.gallery-card img {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    width: 1200px;
+    height: 60px;
+    margin: 0px auto;
+}
+footer div {
+    display: inline-block;
+    width: 44%;
+    margin: 0px 2%;
+    height: 60px;
+    /* background-color: red; */
+    vertical-align: middle;
+    line-height: 60px;
+    text-align: left;
+}
+
+
+footer .social-media-links  {
+    text-align: right;
+}
+
+
+footer .social-media-links li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    
+
+}
