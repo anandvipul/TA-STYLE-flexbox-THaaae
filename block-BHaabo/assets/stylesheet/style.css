@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS Code */
+
+/* Header Section */
+
+* {
+    font-family: 'Uchen', serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+header {
+    background-color: #222946;
+}
+
+.header-container {
+    max-width: 90vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+
+.header-container div {
+    /* border: 1px solid green; */
+    width: 45%;
+    
+}
+
+.brand-div {
+    text-align: left;
+}
+
+.brand-div img {
+    width: 200px;
+    height: 50px;
+    padding: 2vh 0px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-links li {
+    display: inline;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: white;
+}
+
+/* Main Section */
+
+main {
+    max-width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: stretch; */
+    margin: 0px auto;
+}
+
+.card {
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+.aside {
+    max-width: 22vw;
+    flex-grow: 1;
+    background-color: #A2CAEB;
+    padding: 0px 50px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aside ul {
+    padding: 30px 0px 0px 0px;
+}
+
+.aside ul li {
+    padding: 10px;
+    
+}
+
+.aside ul img {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.normal-ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logout-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+
+}
+
+li a {
+    color: black;
+}
+
+.logout {
+    background-color: #f2f9fc;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.aside a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content {
+    width: 50vw;
+    background-color: #f2f9fc;
+}
+
+.main-content img {
+    display: block;
+    width: 95%;
+    height: auto;
+    padding: 20px;
+}
+
+.main-content h1 {
+    padding: 20px 0px;
+}
+
+.main-content p {
+    padding: 10px 0px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #222946;
+    height: 40px;
+    margin: 40px 0px
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 80vw;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.copywrite {
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+footer .img {
+    width: 15px;
+    height: 15px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.social-links .facebook, .social-links .twitter{
+    
+    display: inline;
+    color: white;
+    padding: 10px;
+}
